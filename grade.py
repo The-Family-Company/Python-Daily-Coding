@@ -1,10 +1,11 @@
-a=int(input("Enter a grade:"))
-if a==100:
+mark=int(input("Enter a number"))
+
+if mark>= 90:
     print("A grade")
-elif a==50:
+elif mark>= 70:
     print("B grade")
-elif a==35 :
+elif mark>= 35 :
     print("C grade")
 else:
-    a!=35
+    mark!=35
     print("fail")
